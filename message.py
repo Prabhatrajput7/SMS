@@ -12,7 +12,7 @@ client = Client(account_sid, auth_token)
 
 message = client.messages.create(
 
-                              body='you otp is '+str(otp),
+                              body='your otp is '+str(otp),
                               from_='#Num', #add a number here
                               to='#Num' #add a number here
                           )
