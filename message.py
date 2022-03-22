@@ -7,7 +7,7 @@ otp = random.randint(1000,9000)
 # Find your Account SID and Auth Token at twilio.com/console
 # and set the environment variables. See http://twil.io/secure
 account_sid = 'AC596df635b0f29f5f336bae3eb5efc32f'
-auth_token = '6d55b52e4f81ad7a948e6e8c83f3d553'
+auth_token = 'your taken'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
